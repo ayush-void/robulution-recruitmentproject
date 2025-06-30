@@ -1,52 +1,91 @@
-VOICE CONTROLLED ARMBOT🤖
+🤖 VOICE CONTROLLED ARMBOT
 
-This is a robotic project in which we have tried to build an arm which can pickup and 
-drop objects on our voice command.To make it more efficient we have mounted the arm on 
-a movable chassis which too move on our voice control.It can be controlled using your phone 
-or laptop using browser-based speech to command.
+This is a robotics project where we’ve built a robotic arm capable of picking up and dropping objects using voice commands. To make it even more versatile, we’ve mounted the arm on a movable chassis that can also be controlled via voice.
+The entire system can be operated through your phone or laptop using a browser-based control panel with speech-to-command functionality.
 
-Here is the process how to star the bot:-
 
-Access the control panel at http://[ESP32-IP]:
 
-Directional buttons (Forward/ Backward/Left/Right/Stop)
+📖 How to Start the Bot:
 
-Arm movement (Rotate,pick,drop,up down)
+1. Connect to the ESP32 Wi-Fi network.
 
-Voice command button
 
-Real-time response
+2. Access the control panel by visiting:
+http://[ESP32-IP]
 
-Hardware Components:-
-1. Esp32 Dev boards    -1
-2. BO Motors           -4
-3. L298N Motor Driver  -1
-4. PCA9685 Servo Driver-1
-5. SG90 Servo Motor    -3
-6. MG995R Servo Motor  -3
-7. 7.4V Battery        -1
 
-Libraries & Frameworks (Arduino)
+3. Use the following controls:
 
-ESPAsyncWebServer - for hosting a web server on the ESP32 
+Directional Buttons — Move the bot: Forward, Backward, Left, Right, Stop.
 
-ESPAsyncTCP - asynchronous TCP library required by AsyncWebServer
+Arm Movement Controls — Rotate the base, pick up objects, drop them, move the arm up and down.
 
-Wire.h - for 12C communication with PCA9685
+Voice Command Button — Speak commands directly from your browser.
 
-Adafruit_PWMServoDriver - to control servos via PCA9685
+Real-Time Response — Immediate feedback and control over Wi-Fi.
 
-Servo.h - to control any additional servos directly from ESP32 pins.
 
-ArduinoJSON - for structured data handling.
 
-Web Technologies (for the Control UI)
 
-HTML - structure of the control web page
 
-CSS - basic styling for buttons, sliders, and voice control interface
+---
 
-JavaScript - to handle button clicks, slider events, and voice recognition (using Web Speech API)
+🛠️ Hardware Components:
 
-The Bot is not completed yet due to some hardware malfunction aiming to complete it soon.
-Any suggestions are most welcome.
+ESP32 Dev Board — 1
+
+BO Motors — 4
+
+L298N Motor Driver — 1
+
+PCA9685 Servo Driver — 1
+
+SG90 Servo Motors — 3
+
+MG995R Servo Motors — 3
+
+7.4V Battery Pack — 1
+
+
+
+---
+
+📚 Libraries & Frameworks (Arduino):
+
+ESPAsyncWebServer — for hosting a web server on the ESP32
+
+ESPAsyncTCP — asynchronous TCP library required by AsyncWebServer
+
+Wire.h — for I2C communication with the PCA9685
+
+Adafruit_PWMServoDriver — to control servos via PCA9685
+
+Servo.h — to control any additional servos directly from ESP32 pins
+
+ArduinoJSON — for structured data handling
+
+
+
+---
+
+🌐 Web Technologies (for the Control UI):
+
+HTML — structure of the control web page
+
+CSS — basic styling for buttons, sliders, and the voice control interface
+
+JavaScript — to handle button clicks, slider movements, and voice recognition using the Web Speech API
+
+
+
+---
+
+⚠️ Project Status:
+
+The bot is not fully completed yet due to some hardware malfunctions.
+I’m working on resolving those issues and aim to finish it soon.
+
+Suggestions, ideas, and contributions are most welcome! 🚀
+
+
+---
